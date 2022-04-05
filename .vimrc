@@ -17,7 +17,7 @@ call plug#end()
 " 42 Header
 let g:user42 = 'susami'
 let g:mail42 = 'susami@student.42tokyo.jp'
-:autocmd BufNewFile *.c,*.h,Makefile Stdheader
+:autocmd BufNewFile,BufRead *.c,*.h,Makefile,*.sh Stdheader
 
 " Enable norminette-vim (and gcc)
 let g:syntastic_c_checkers = ['norminette', 'gcc']
