@@ -14,3 +14,4 @@ plugins=(
 
 
 source $ZSH/oh-my-zsh.sh
+eval `ssh-agent`; ssh-add ~/.ssh/id_rsa;
