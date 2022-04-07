@@ -10,7 +10,6 @@ call plug#begin()
 
 Plug 'vim-syntastic/syntastic'
 Plug 'alexandregv/norminette-vim'
-Plug '42Paris/42header'
 
 call plug#end()
 
