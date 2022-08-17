@@ -16,7 +16,7 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install oh-my-zsh plugin
-cd ~/.oh-my-zsh/plugings
+cd ~/.oh-my-zsh/plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 # Install vim-plug
